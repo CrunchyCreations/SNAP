@@ -1,0 +1,201 @@
+/*css file*/
+
+/*JAVASCRIPT for MENU*/
+#menu{
+            position:absolute;
+            top:30px;
+            right: 88px;
+            width:138px;
+            background-color: #0ea6f1; 
+            transition: height 1s, border-width 1s, padding 1s;
+            overflow:hidden;}
+        #menuhead{
+            cursor:pointer;
+            position:absolute; top: 30px; right: 35px
+        }
+
+        .hidden {
+            height: 0;
+            border-width: 0!important;
+            padding: 0;
+        }
+
+        .shown {
+            height: 70px;
+            border-width: 1px;
+            padding: 1em;
+        }
+
+
+body {
+    margin: 35px; margin-top: 0px;margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    background: url(img_logo-header-honeycomb-shadowed.png);
+    color: rgb(255, 255, 255);
+    background-size:100%;
+    background-repeat:   no-repeat;
+    background-color: #1ba3ed;
+    }
+a {
+	color: cornsilk;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+}
+a:visited {
+    color: cornsilk;
+}
+
+header {
+        text-align: right;
+}
+
+h1 {
+    font-family: 'Poller One', san-serif;
+    text-align: left;
+	font-size: 33px;
+	line-height: 1.5em;
+    color: #edf508;
+}
+
+h2 {
+	font-family: 'Oswald',  san-serif;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+	font-size: 28px;
+	line-height: 1em;
+    color: cornsilk;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    text-shadow: 1px 1px 4px #000000;
+	font-size: 18px;
+	line-height: .25em;
+    padding-top: .5em;
+    color: r#ef5d5d;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+	font-size: 10px;
+	line-height: 12px;
+    color: #50504f;
+}
+
+h5 {   
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    text-shadow: 1px 1px 4px #000000;
+	font-size: 18px;
+	line-height: 1.1em;
+    color: cornsilk;
+}
+
+h6 {   
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    text-shadow: 1px 1px 4px #66a6e7;
+	font-size: 14px;
+	line-height: 1.1em;
+    color: #43aaf4;
+}
+
+h7 {   
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    text-shadow: 1px 1px 4px #000000;
+	font-size: 18px;
+	line-height: 1.1em;
+    color: cornsilk;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+    color: cornsilk
+}
+
+p2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+    line-height: 16px;
+    color: cornsilk;
+    }
+
+audio {width: =40px;
+}
+
+article {
+    float: left;
+    margin-top: 6vw;
+    background-color: #810303;
+    padding: 1.5em 1.6em;
+    max-width: 60vw;
+    border-radius: 7px;
+    height: relative;
+}
+
+    
+aside {
+    float: right;
+    margin-top: 10vw;
+    background-color: #e1b908;
+    padding: 1.5em;
+    max-width: 23vw;
+    border-radius: 7px;
+    height: relative;
+    position:relative;
+}
+
+aside2 {
+    float: right;
+    margin-top: 10vw;
+    background-color: #135d80;
+    padding: 1.5em;
+    max-width: 23vw;
+    border-radius: 7px;
+    height: relative;
+    position:relative;
+}
+
+aside3 {
+    float: right;
+    margin-top: 10vw;
+    background-color: #022b3f;
+    padding: 1.5em;
+    max-width: 23vw;
+    border-radius: 7px;
+    height: relative;
+    position:relative;
+}
+
+.header {display: inline-block; width: 100%; vertical-align: top}
+
+.five-col-grid {display: inline-block; width: 15%; vertical-align: top; padding-left: 1px; padding-right: 1px}
+    .five-col-grid img {width: 100%}
+.three-col-grid {display: inline-block; width: 30%; vertical-align: top; padding-left: 9px; padding-right: 14px}
+.two-col-grid {display: inline-block; width: 45%; vertical-align: top; padding-left: 9px; padding-right: 14px}
+    .three-col-grid img {width: 100%}
+
+.center{text-align: center;}
+.left-wrap {float: left}
+img.center-wrap {margin-top: 4px; margin-bottom: 0px}
+img.left-wrap {margin-top: 4px; margin-bottom: 25px}
+.right-wrap {float: right }
+img.right-wrap {margin:4px}
+nav {text-align:center}
+
+video.right-wrap {margin: 0px 0px 0px 10px; padding: 10px}
+table, tr, td, th {border: 1px solid black; padding: 3px}
+
+@media screen and (max-width: 700px) {
+    h1 {font-size: 14px;}
+    article {width: 100vw}
+    aside {position: static; width: 100vw; top: 0; left: 0}
+    
+}
